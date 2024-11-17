@@ -8,7 +8,10 @@ function App() {
       <NavBar/>
     <div className="row">
       <div className='col-md8'>
-        <h1>TODO LIST APP</h1>
+        <h1>WELCOME TO TODO LIST APP</h1>
+        <p className= "alert alert-info">
+          Click a LIST  to see its todos
+        </p>
           <Outlet />
       
     </div>
